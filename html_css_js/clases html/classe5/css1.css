@@ -1,0 +1,34 @@
+table{
+    width: 100%;
+}
+table, th ,td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    padding: 5px;
+}
+caption{
+    color: aquamarine;
+    font-family: serif;
+    font-size: 45px;
+    line-height: 70px; 
+}
+th{
+    color: #f1aeef;
+    background-color: #1d3557;
+}
+tr:nth-child(even){
+    background-color: #f1feef;
+
+}
+tr:nth-child(odd){
+    background-color:#a8dadc ;
+}
+/*
+td{
+    text-align: center;
+}
+
+th{
+    text-aling: left;
+}
+*/

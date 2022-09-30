@@ -1,0 +1,27 @@
+#titulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align:center;    
+}
+#contenido{
+    background-color: rgb(1, 1, 1);
+    font-family:cursive;
+    margin: 6px;
+    font-size: 17px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    border: 5px solid black;
+}
+#hola{
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    border-color: rgb(58, 57, 57);
+    border-style: solid;
+    margin: 0px;
+    padding: 10px;
+    font-family: cursive;
+}

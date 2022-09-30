@@ -1,0 +1,22 @@
+h1{
+    color:blueviolet;
+}
+/*no visitador*/
+a:link{
+    color:blue;
+    text-decoration: none;
+}
+/*ya visitado*/
+a:visited{
+    color: rgba(215, 77, 220, 0.955);
+
+}
+/*cuando nos ponemos encima del link*/
+a:hover{
+    color: rgb(0, 247, 255);
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(165, 58, 58);
+    text-decoration: white;
+}

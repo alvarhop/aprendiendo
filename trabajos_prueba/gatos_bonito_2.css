@@ -1,0 +1,32 @@
+.Ashera{
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    border: 10px 20px ;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+    margin: 10px;
+} 
+
+.razas{
+    height: 93px;
+    width: 150px;
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    padding: 1px;
+    
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.lista{
+    margin: 0px;
+}
+.container{
+    border-style: solid; 
+    width: 150px;
+    background-color: rgb(237, 237, 237);
+}
+
