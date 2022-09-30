@@ -10,3 +10,5 @@ for x in range(0, pdfReader.numPages):
     pageObj = pdfReader.getPage(x)
     print(pageObj.extract_text())
 
+print("hola")
+
