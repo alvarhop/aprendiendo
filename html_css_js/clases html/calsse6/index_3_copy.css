@@ -1,0 +1,11 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+
+}
+ol li::before{
+    content: 'curso' counter(contador);
+}
+ol li::after{
+    content: '.';
+} 
