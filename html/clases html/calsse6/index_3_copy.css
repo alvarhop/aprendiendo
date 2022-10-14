@@ -1,11 +1,20 @@
 ol{
     list-style: none;
+    /*counter-reset = se reinicia el valor a cero en cada nueva lista*/
     counter-reset: contador;
-
 }
+ol li{
+    /*para que incremente el valor a 1 2 3 4 etc*/
+    counter-increment: contador;
+}
+/* before=se agrege un texto antes de la lista content=el contenido antes del texto*/
+/* counter=contador counter(contador es una forma de definir como lo vas a llamar) */
 ol li::before{
-    content: 'curso' counter(contador);
+    /*'' esto se conoce como un juego de caracteres que permite que deje un espacio al unirlos*/
+    content: 'curso ' counter(contador)')';
+    color:#ff6f00;
 }
+/*after=despues de la lista*/
 ol li::after{
     content: '.';
 } 
