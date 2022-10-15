@@ -1,8 +1,12 @@
+body{
+    background-image:none;
+    color: rgb(0, 0, 0);
+}
+
 /*titulo*/
-/*id="aling"*/
+/*id="aling" #aling*/
 #aling{
     text-align: center;
-    background-color:none;
 }
 /*class="title-effect"*/
 .title-effect{
@@ -37,5 +41,5 @@
 .text-decorative{
     padding: 0;
     margin: 0;
-    
+
 }
