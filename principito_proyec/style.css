@@ -1,0 +1,26 @@
+
+body{
+    text-align: center;
+    background-color:none;
+}
+.title-effect{
+    display: inline-block;
+    position:relative;
+    color: rgb(63, 143, 255);
+    
+}
+.title-effect::after, .title-effect::before{
+    content:'';
+    position: absolute;
+    width:120px;
+    height: 3px;
+    background-color:currentColor;
+    top: 0.6em;
+}
+
+.title-effect::before{
+    left: -140px;
+}
+.title-effect::after{
+    right: -140px;
+}
