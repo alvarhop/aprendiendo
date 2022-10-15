@@ -1,8 +1,10 @@
-
-body{
+/*titulo*/
+/*id="aling"*/
+#aling{
     text-align: center;
     background-color:none;
 }
+/*class="title-effect"*/
 .title-effect{
     display: inline-block;
     position:relative;
@@ -12,8 +14,8 @@ body{
 .title-effect::after, .title-effect::before{
     content:'';
     position: absolute;
-    width:120px;
-    height: 3px;
+    width: 100px;
+    height: 2px;
     background-color:currentColor;
     top: 0.6em;
 }
@@ -23,4 +25,17 @@ body{
 }
 .title-effect::after{
     right: -140px;
+}
+/*lista*/
+.none::before{
+    content:'-';
+}
+.none{
+    list-style-type: none;
+}
+/**/
+.text-decorative{
+    padding: 0;
+    margin: 0;
+    
 }
